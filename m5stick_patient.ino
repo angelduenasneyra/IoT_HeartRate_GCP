@@ -1,7 +1,4 @@
-// Function: Detection of heart rate and blood oxygen concentration
-// Units used: M5StickCPlus, Heart(MAX30102)
-// please install MAX3010x lib for MAX30102 by library manager first
-// addr: https://github.com/sparkfun/SparkFun_MAX3010x_Sensor_Library
+
 #include <M5StickCPlus.h>
 #include <Wire.h>
 #include "MAX30105.h"
@@ -15,9 +12,9 @@ const long  gmtOffset_sec = -21600; // UTC-6 hours in seconds for Austin, Texas
 const int   daylightOffset_sec = 3600; // DST is 1 hour (3600 seconds)
 
 
-const char* ssid = "BonnieWifi";
-const char* password = "6105Bonnie";
-const char* mqtt_broker = "35.184.8.199";
+const char* ssid = "Pixel_6009";
+const char* password = "angel123";
+const char* mqtt_broker = "34.27.189.200";
 const char* mqtt_username = "msquser";
 const char* mqtt_password = "msqpass"; 
 const int mqtt_port = 1883;
